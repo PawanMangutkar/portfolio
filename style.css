@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+header .hero h1 span {
+    color: #ffcc00;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #ffcc00;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.skills-container, .project-card {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skill-card {
+    background: #2575fc;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.skill-card:hover {
+    transform: scale(1.1);
+}
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #df0e76;
+    color: rgb(204, 31, 31);
+}
